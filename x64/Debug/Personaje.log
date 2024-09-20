@@ -1,5 +1,6 @@
 ﻿  arma.c
   main.c
+C:\Users\B09S316est\Documents\ejerciciosU3-SC\arma.h(12,14): error C2129: función static 'char *get_wepon(Arma *)' declarada pero no definida
+C:\Users\B09S316est\Documents\ejerciciosU3-SC\arma.h(12,14): message : vea la declaración de 'get_wepon'
   PERSONAJE.c
   Generando código...
-  Personaje.vcxproj -> C:\Users\B09S104est\Documents\Sp1bIDEDProjects\V1\Personaje\x64\Debug\Personaje.exe

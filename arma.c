@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-Arma* Arma_crear(const char* nombre, int damage, int alcance) {
+Arma* Arma_crear( const char* nombre, int damage, int alcance) {
     Arma* nueva_arma = (Arma*)malloc(sizeof(Arma));
     if (!nueva_arma) return NULL;
     //nuevo_personaje->nombre = strdup(nombre);
@@ -19,7 +19,7 @@ void Arma_destruir(Arma* this) {
         free(this);
     }
 }
-char* get_wepon(Arma* this)
+static char* get_wepon(Arma* this)
 {
     return this->nombre;
 }
